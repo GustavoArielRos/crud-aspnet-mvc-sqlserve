@@ -80,5 +80,125 @@ namespace BestStoreMVC.Controllers
             return RedirectToAction("Index", "Products");
         }
 
+
+        public IActionResult Edit(int id)
+        {
+            var product = context.Products.Find(id);
+
+            if(product == null)
+            {
+                return RedirectToAction("Index", "Products");
+            }
+
+            //cria um productDto do produto
+            var productDto = new ProductDto()
+            {
+                Name = product.Name,
+                Brand = product.Brand,
+                Category = product.Category,
+                Price = product.Price,
+                Description = product.Description,
+            };
+
+            //armazena os dados nessa "ViewData"
+            //ela serve para exibir os dados na View(página) de uma forma simples
+            ViewData["ProductId"] = product.Id;
+            ViewData["ImageFileName"] = product.ImageFileName;
+            ViewData["CreatedAt"] = product.CreateAt.ToString("MM/dd/yyyy");
+
+
+            return View(productDto);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(int id, ProductDto productDto)
+        {
+            //Adicionando o produto encontrado no banco de dados usando a ID
+            var product = context.Products.Find(id);
+
+            //se não tem produto vai para a página principal com a lista dos produtos
+            if(product == null)
+            {
+                return RedirectToAction("Index", "Products");
+            }
+
+            //se tem algo no modal que não é válido vai retorna pra página edit de volta
+            if(!ModelState.IsValid)
+            {   
+                //eu coloco isso pq o productDto não tem esses atributos para trabalhar
+                ViewData["ProductId"] = product.Id;
+                ViewData["ImageFileName"] = product.ImageFileName;
+                ViewData["CreatedAT"] = product.CreateAt.ToString("MM/dd/yyyy");
+
+                return View(productDto);//retorno a página Edit
+            }
+
+            //atualizando o arquivo de imagem caso tenha um novo arquivo de imagem
+            string newFileName = product.ImageFileName;//cria um novo arquivo com as inf da imagem atual
+            //se tem uma nova imagem
+            if(productDto.ImageFile != null)
+            {   
+                //gera um novo nome de arquivo baseado na data atual
+                newFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                //adiciona o arquivo original ao novo nome de arquivo criado acima(essa extensão tem a imagem)
+                newFileName += Path.GetExtension(productDto.ImageFile.FileName);
+
+                //Código para salvar a nova imagem no sistema
+                //cria uma string(define o caminho) usando a raiz do servidor + subpasta + a variável que tem o novo arquivo
+                string imageFullPath = environment.WebRootPath + "/products/" + newFileName;
+
+                //crinado o fluxo no sistema para poder escrever nesse caminho
+                using (var stream = System.IO.File.Create(imageFullPath))
+                {
+                    productDto.ImageFile.CopyTo(stream);//copia o conteúdo da imagem enviada para o fluxo
+                }
+
+
+                //deletando a imagem antiga
+                //constroi um caminho completo para a imagem antiga,combinando o caminho raiz do servidor + subdiretório + nome do arquivo
+                string oldImageFullPath = environment.WebRootPath + "/products" + product.ImageFileName;
+                //deleta o arquivo de imagem antigo do sistema de arquivos
+                System.IO.File.Delete(oldImageFullPath);
+            }
+
+            //atualizando o produto na base de dados
+            product.Name = productDto.Name;
+            product.Brand = productDto.Brand;
+            product.Category = productDto.Category;
+            product.Price = productDto.Price;
+            product.Description = productDto.Description;
+            product.ImageFileName = newFileName;
+
+            context.SaveChanges();
+
+            return RedirectToAction("Index", "Products");
+        }
+
+        public IActionResult Delete(int id)
+        {   
+            //vai pegar o produto a partir da ID e jogar nessa variável
+            var product = context.Products.Find(id);
+
+            //caso não exista o produto volta para página inicial
+            if(product == null)
+            {
+                return RedirectToAction("Index", "Products");
+            }
+
+            //faz o caminho pegando a raiz do servidor + subpasta + nome do arquivo
+            string imageFullPath = environment.WebRootPath + "/products/" + product.ImageFileName;
+            //delentando a imagem no sistema
+            System.IO.File.Delete(imageFullPath);
+
+            //removendo os outros atributos do produto
+            context.Products.Remove(product);
+            //salvando as mudanças
+            context.SaveChanges();
+
+            return RedirectToAction("Index", "Products");
+
+        }
+
+
     }
 }

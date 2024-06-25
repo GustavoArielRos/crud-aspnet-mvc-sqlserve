@@ -245,6 +245,22 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\wwwroot\\products\\20240624182659683.jpg",
+      "PackagePath": "staticwebassets\\products\\20240624182659683.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\wwwroot\\products\\20240624182730581.webp",
+      "PackagePath": "staticwebassets\\products\\20240624182730581.webp"
+    },
+    {
+      "Id": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\wwwroot\\products\\20240624212428232.jpg",
+      "PackagePath": "staticwebassets\\products\\20240624212428232.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\wwwroot\\products\\20240624215449495.jpg",
+      "PackagePath": "staticwebassets\\products\\20240624215449495.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BestStoreMVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

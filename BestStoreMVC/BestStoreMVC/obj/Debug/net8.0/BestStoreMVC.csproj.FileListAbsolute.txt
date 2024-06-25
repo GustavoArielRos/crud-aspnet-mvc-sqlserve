@@ -134,3 +134,4 @@ C:\Users\Guga_Pc\Desktop\projetos-git\crud-aspnet-mvc-sqlserve\BestStoreMVC\Best
 C:\Users\Guga_Pc\Desktop\projetos-git\crud-aspnet-mvc-sqlserve\BestStoreMVC\BestStoreMVC\obj\Debug\net8.0\BestStoreMVC.pdb
 C:\Users\Guga_Pc\Desktop\projetos-git\crud-aspnet-mvc-sqlserve\BestStoreMVC\BestStoreMVC\obj\Debug\net8.0\BestStoreMVC.genruntimeconfig.cache
 C:\Users\Guga_Pc\Desktop\projetos-git\crud-aspnet-mvc-sqlserve\BestStoreMVC\BestStoreMVC\obj\Debug\net8.0\ref\BestStoreMVC.dll
+C:\Users\Guga_Pc\Desktop\projetos-git\crud-aspnet-mvc-sqlserve\BestStoreMVC\BestStoreMVC\obj\Debug\net8.0\BestStoreMVC.sourcelink.json

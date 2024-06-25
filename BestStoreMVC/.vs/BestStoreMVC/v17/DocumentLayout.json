@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\beststoremvc\\beststoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\beststoremvc\\beststoremvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +15,16 @@
       "RelativeMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\beststoremvc\\beststoremvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\beststoremvc\\beststoremvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\beststoremvc\\beststoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\beststoremvc\\beststoremvc\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\beststoremvc\\beststoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\beststoremvc\\beststoremvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{864D9031-8B2A-4AD7-8408-517DB2877D2B}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\beststoremvc\\beststoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -55,14 +55,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BestStoreMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T22:56:56.191Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "BestStoreMVC\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAABQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T21:54:11.594Z",
               "EditorCaption": ""
             },
             {
@@ -73,7 +73,7 @@
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Products\\Create.cshtml",
               "ToolTip": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Views\\Products\\Create.cshtml",
               "RelativeToolTip": "BestStoreMVC\\Views\\Products\\Create.cshtml",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAAAAAABCAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAQwEcAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-23T21:57:59.601Z",
               "EditorCaption": ""
@@ -81,6 +81,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "BestStoreMVC\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAkwMUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T20:18:16.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Models\\ProductDto.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Models\\ProductDto.cs",
@@ -93,32 +106,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "BestStoreMVC\\Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAABkAAAAAAAAAAAAmwC4AAAA9AAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T20:21:39.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "BestStoreMVC\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:18:16.152Z",
+              "WhenOpened": "2024-06-23T20:21:39.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\crud-aspnet-mvc-sqlserve\\BestStoreMVC\\BestStoreMVC\\Models\\Product.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Models\\Product.cs",
@@ -126,8 +127,7 @@
               "RelativeToolTip": "BestStoreMVC\\Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T19:25:43.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T19:25:43.163Z"
             },
             {
               "$type": "Document",
